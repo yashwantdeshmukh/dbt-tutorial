@@ -1,0 +1,13 @@
+jafel_shop: 
+  outputs: 
+    dev: 
+      dataset: dbt_yasdeshm1
+      keyfile: /Users/yasdeshm1/Desktop/POC/dbt-cli/dbt-tutorial/dbt-user.json
+      location: US
+      method: service-account
+      priority: interactive
+      project: silent-eye-270513
+      threads: 1
+      timeout_seconds: 300
+      type: bigquery
+  target: dev
